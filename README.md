@@ -2,8 +2,7 @@
 
 A **real-time polling & AI-powered quiz platform** for teachers and students with live results, chat, analytics, and seamless WebSocket communication.
 
-🌐 **Live Demo**: [https://poll.nirajjha.xyz](https://poll.nirajjha.xyz)
-📦 **Repository**: [https://github.com/jha-niraj/Intervue-Live-Poll](https://github.com/jha-niraj/Intervue-Live-Poll)
+🌐 **Live Demo**: [https://poll.nirajjha.xyz](https://pollsystem1.netlify.app/)
 
 ---
 
