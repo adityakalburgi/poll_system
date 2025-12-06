@@ -17,7 +17,7 @@ const httpServer = createServer(app);
 // Socket.io setup with CORS
 const io = new Server(httpServer, {
 	cors: {
-		origin: ["http://localhost:5173", "https://poll.nirajjha.xyz"],
+		origin: ["http://localhost:5173", "https://pollsystem1.netlify.app/"],
 		methods: ['GET', 'POST'],
 		credentials: true,
 		allowedHeaders: ['Content-Type'],
@@ -28,7 +28,7 @@ const io = new Server(httpServer, {
 
 // Middleware
 app.use(cors({
-	origin: ["http://localhost:5173", "https://poll.nirajjha.xyz"],
+	origin: ["http://localhost:5173", "https://pollsystem1.netlify.app/"],
 	credentials: true,
 	methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 }));
@@ -59,7 +59,7 @@ const PORT = process.env.PORT || 3000;
 httpServer.listen(PORT, () => {
 	console.log(`✅ Server running on port ${PORT}`);
 	console.log(`✅ Socket.io server ready`);
-	console.log(`✅ CORS enabled for: http://localhost:5173, https://poll.nirajjha.xyz`);
+	console.log(`✅ CORS enabled for: http://localhost:5173, https://pollsystem1.netlify.app/`);
 	console.log(`✅ Environment: ${process.env.NODE_ENV || 'development'}`);
 });
 
